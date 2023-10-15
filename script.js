@@ -6,5 +6,5 @@ let colors = ["red", "yellow", "navy", "blue", "orange", "brown", "white", "gree
 
 button.addEventListener("click", () => {
     value.textContent = (names[Math.floor(Math.random() * names.length)]);
-    value.style.color = (colors[Math.floor(Math.random() * colors.length)])
+    value.style.color = (colors[Math.floor(Math.random() * colors.length)]);
 })
